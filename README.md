@@ -40,3 +40,15 @@ Translation files use the same timestamps:
 ```
 
 Files are fetched on demand and cached on device.
+
+
+## Albums
+
+### Sarit Hadad — *24* (2022)
+
+Synced Hebrew `.lrc` + Spanish `.tr.lrc` for all 7 tracks:
+
+- `Sarit Hadad/24/`
+- `שרית חדד/24/` (Hebrew artist-name fallback)
+
+Track 4 (`מה נזכרת בי?`) timing sourced from LRCLIB; other tracks aligned from official audio/captions.
