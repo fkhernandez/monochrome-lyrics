@@ -15,6 +15,8 @@ https://raw.githubusercontent.com/fkhernandez/monochrome-lyrics/main
 ```text
 by-isrc/{ISRC}.lrc
 by-isrc/{ISRC}.tr.lrc          # optional translation, same timestamps
+by-title/{Artist}/{Title}.lrc
+by-title/{Artist}/{Title}.tr.lrc
 Artist Name/Album Title/01 - Song Title.lrc
 Artist Name/Album Title/01 - Song Title.tr.lrc
 ```
@@ -22,8 +24,9 @@ Artist Name/Album Title/01 - Song Title.tr.lrc
 Lookup order in the app:
 
 1. `by-isrc/{ISRC}.lrc` when the track has an ISRC
-2. `Artist/Album/{nn} - Title.lrc` (track number padded to 2 digits when known)
-3. LRCLIB
+2. `by-title/{Artist}/{Title}.lrc`
+3. `Artist/Album/{nn} - Title.lrc` (and unnumbered `Artist/Album/Title.lrc`)
+4. LRCLIB
 
 ## LRC format
 
