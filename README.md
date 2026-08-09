@@ -54,4 +54,8 @@ Synced Hebrew `.lrc` + Spanish `.tr.lrc` for all 7 tracks:
 - `Sarit Hadad/24/`
 - `שרית חדד/24/` (Hebrew artist-name fallback)
 
-Track 4 (`מה נזכרת בי?`) timing sourced from LRCLIB; other tracks aligned from official audio/captions.
+All seven tracks were fine-tuned against the official `SaritHadadOfficial`
+uploads. Earlier stable-ts, YouTube caption, and LRCLIB timings were retained as
+starting points, while phrase boundaries and repeated-line structure were
+checked against the released audio. Spanish files mirror the final Hebrew
+timestamps exactly.
