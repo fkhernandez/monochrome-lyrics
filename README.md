@@ -47,6 +47,18 @@ Files are fetched on demand and cached on device.
 
 ## Albums
 
+### Sarit Hadad — *שרית חדד* (2015)
+
+Synced Hebrew `.lrc` + Spanish `.tr.lrc` for the 14 album tracks with synced
+LRCLIB lyrics:
+
+- `Sarit Hadad/שרית חדד/`
+- `שרית חדד/שרית חדד/` (Hebrew artist-name fallback)
+
+The Spanish files mirror the LRCLIB timestamps exactly. Track 3, `לנשום אותך`,
+was omitted because LRCLIB has only unsynced lyrics; track 6,
+`הבטחת לי עולם`, was omitted because LRCLIB has no lyrics entry.
+
 ### Sarit Hadad — *24* (2022)
 
 Synced Hebrew `.lrc` + Spanish `.tr.lrc` for all 7 tracks:
