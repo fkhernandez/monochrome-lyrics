@@ -49,15 +49,27 @@ Files are fetched on demand and cached on device.
 
 ### Sarit Hadad — *שרית חדד* (2015)
 
-Synced Hebrew `.lrc` + Spanish `.tr.lrc` for the 14 album tracks with synced
-LRCLIB lyrics:
+Synced Hebrew `.lrc` + Spanish `.tr.lrc` for all 16 album tracks:
 
 - `Sarit Hadad/שרית חדד/`
 - `שרית חדד/שרית חדד/` (Hebrew artist-name fallback)
 
-The Spanish files mirror the LRCLIB timestamps exactly. Track 3, `לנשום אותך`,
-was omitted because LRCLIB has only unsynced lyrics; track 6,
-`הבטחת לי עולם`, was omitted because LRCLIB has no lyrics entry.
+The Spanish files mirror the final Hebrew timestamps exactly. Tracks 3,
+`לנשום אותך`, and 6, `הבטחת לי עולם`, were aligned line by line against the
+supplied lossless album masters; the other 14 tracks retain their synced
+LRCLIB timing.
+
+### Eyal Golan — *רחוק מכאן* (2016)
+
+Master-aligned Hebrew `.lrc` + Spanish `.tr.lrc` for track 5, `רחוק מכאן`:
+
+- `Eyal Golan/רחוק מכאן/`
+- `אייל גולן/רחוק מכאן/` (Hebrew artist-name fallback)
+
+This repository override removes LRCLIB's nonsung title and credit rows,
+corrects the timing drift in the second verse, and includes the final repeated
+chorus that is missing from LRCLIB's synced entry. The Spanish file mirrors the
+Hebrew timestamps exactly.
 
 ### Sarit Hadad — *24* (2022)
 
