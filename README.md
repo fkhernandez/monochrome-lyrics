@@ -61,15 +61,17 @@ LRCLIB timing.
 
 ### Eyal Golan — *רחוק מכאן* (2016)
 
-Master-aligned Hebrew `.lrc` + Spanish `.tr.lrc` for track 5, `רחוק מכאן`:
+Master-aligned Hebrew `.lrc` + Spanish `.tr.lrc` for tracks 5, `רחוק מכאן`,
+and 7, `אתה המלך`:
 
 - `Eyal Golan/רחוק מכאן/`
 - `אייל גולן/רחוק מכאן/` (Hebrew artist-name fallback)
 
-This repository override removes LRCLIB's nonsung title and credit rows,
-corrects the timing drift in the second verse, and includes the final repeated
-chorus that is missing from LRCLIB's synced entry. The Spanish file mirrors the
-Hebrew timestamps exactly.
+For `רחוק מכאן`, this repository override removes LRCLIB's nonsung title and
+credit rows, corrects the timing drift in the second verse, and includes the
+final repeated chorus missing from LRCLIB's synced entry. `אתה המלך` was
+aligned against the supplied lossless album master because LRCLIB has only
+plain lyrics. The Spanish files mirror the Hebrew timestamps exactly.
 
 ### Sarit Hadad — *24* (2022)
 
