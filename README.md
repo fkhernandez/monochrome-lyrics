@@ -88,8 +88,8 @@ timestamps exactly.
 
 ### Sarit Hadad — *שירת חיי* (2026)
 
-Synced Hebrew `.lrc` for track 1, `מלך הסודות`, aligned against the supplied
-3:18 lossless recording:
+Synced Hebrew `.lrc` and Spanish `.tr.lrc` for track 1, `מלך הסודות`, aligned
+against the supplied 3:18 lossless recording:
 
 - `by-isrc/IL1012601987.lrc`
 - `by-title/Sarit Hadad/מלך הסודות.lrc` and the Hebrew artist-name fallback
@@ -102,6 +102,14 @@ Each section was aligned separately, and line starts were adjusted against
 the isolated vocal waveform. Empty timed rows clear the lyrics during the
 instrumental breaks and outro. The recording's ISRC and album were verified
 against [TIDAL track 554806933](https://tidal.com/track/554806933).
+
+The Spanish files mirror every Hebrew timestamp, including the empty rows.
+The translation preserves the original imagery: `carne y sangre` for
+`בשר ודם`, `me abras ya el mar` for `שכבר תפתח לי את הים`, and `pruebas` for
+the religious trials in `ניסיונות`. `Afino mi corazón` retains the unusual
+`מדייקת את הלב שלי` metaphor: `afinar` can mean to refine or make something
+more precise ([RAE](https://dle.rae.es/afinar)). `Las niñas` preserves
+`הילדות` without specifying a family relationship.
 
 Lyrics and music: Sarit Hadad, Avi Ohayon, Matan Dror, Henree, Mor Uzan.
 כל הזכויות שמורות לש.חדד הפקות בע״מ
