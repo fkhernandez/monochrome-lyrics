@@ -85,3 +85,24 @@ uploads. Earlier stable-ts, YouTube caption, and LRCLIB timings were retained as
 starting points, while phrase boundaries and repeated-line structure were
 checked against the released audio. Spanish files mirror the final Hebrew
 timestamps exactly.
+
+### Sarit Hadad — *שירת חיי* (2026)
+
+Synced Hebrew `.lrc` for track 1, `מלך הסודות`, aligned against the supplied
+3:18 lossless recording:
+
+- `by-isrc/IL1012601987.lrc`
+- `by-title/Sarit Hadad/מלך הסודות.lrc` and the Hebrew artist-name fallback
+- `Sarit Hadad/שירת חיי/` and `שרית חדד/שירת חיי/` (numbered and unnumbered)
+
+The supplied text matches the lyrics in the
+[official artist upload](https://www.youtube.com/watch?v=TgzfZ9ECAEs).
+Vocal transcription confirmed both verses and all three chorus performances.
+Each section was aligned separately, and line starts were adjusted against
+the isolated vocal waveform. Empty timed rows clear the lyrics during the
+instrumental breaks and outro. The recording's ISRC and album were verified
+against [TIDAL track 554806933](https://tidal.com/track/554806933).
+
+Lyrics and music: Sarit Hadad, Avi Ohayon, Matan Dror, Henree, Mor Uzan.
+כל הזכויות שמורות לש.חדד הפקות בע״מ
+The copyright credit is retained here rather than displayed as a sung line.
