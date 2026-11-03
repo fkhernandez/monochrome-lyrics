@@ -114,3 +114,13 @@ more precise ([RAE](https://dle.rae.es/afinar)). `Las niñas` preserves
 Lyrics and music: Sarit Hadad, Avi Ohayon, Matan Dror, Henree, Mor Uzan.
 כל הזכויות שמורות לש.חדד הפקות בע״מ
 The copyright credit is retained here rather than displayed as a sung line.
+
+### Shahar Saul, Agam Buhbut & Noroz — *דובשנייה* (2022)
+
+First-pass Hebrew line-synced `.lrc` for the 2:32 single (ISRC `IL7022200212`), based on the supplied 44.1 kHz FLAC and a corrected Hebrew transcription. Includes the spoken introduction, two verses, repeated choruses, bridge, and full repeated outro.
+
+- `by-isrc/IL7022200212.lrc`
+- `by-title/שחר סאול/דובשנייה.lrc` and `by-title/Shahar Saul/דובשנייה.lrc`
+- Numbered album fallback under the Hebrew and English Shahar Saul folders
+
+**Timing status:** provisional **line-level** synchronization anchored to the track's 105 BPM structure and audio energy; especially spoken intro, bridge, and rapid outro would benefit from manual playback QC. Not word-synced; no original audio is committed.
