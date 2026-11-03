@@ -123,4 +123,6 @@ First-pass Hebrew line-synced `.lrc` for the 2:32 single (ISRC `IL7022200212`), 
 - `by-title/שחר סאול/דובשנייה.lrc` and `by-title/Shahar Saul/דובשנייה.lrc`
 - Numbered album fallback under the Hebrew and English Shahar Saul folders
 
+Spanish translation is now included in matching `.tr.lrc` files at all five lookup paths. Every timestamp and instrumental-clear row mirrors its Hebrew counterpart. Colloquial expressions are translated idiomatically (`דובשנייה` as *bomboncito*), while *Beluga*, *Givatayim*, and *Mimuna* remain named references.
+
 **Timing status:** provisional **line-level** synchronization anchored to the track's 105 BPM structure and audio energy; especially spoken intro, bridge, and rapid outro would benefit from manual playback QC. Not word-synced; no original audio is committed.
