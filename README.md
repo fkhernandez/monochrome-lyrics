@@ -117,7 +117,7 @@ The copyright credit is retained here rather than displayed as a sung line.
 
 ### Shahar Saul, Agam Buhbut & Noroz — *דובשנייה* (2022)
 
-First-pass Hebrew line-synced `.lrc` for the 2:32 single (ISRC `IL7022200212`), based on the supplied 44.1 kHz FLAC and a corrected Hebrew transcription. Includes the spoken introduction, two verses, repeated choruses, bridge, and full repeated outro.
+Hebrew line-synced `.lrc` for the 2:32 single (ISRC `IL7022200212`), based on the supplied 44.1 kHz FLAC and a corrected Hebrew transcription. Includes the spoken introduction, two verses, repeated choruses, bridge, and full repeated outro.
 
 - `by-isrc/IL7022200212.lrc`
 - `by-title/שחר סאול/דובשנייה.lrc` and `by-title/Shahar Saul/דובשנייה.lrc`
@@ -125,4 +125,17 @@ First-pass Hebrew line-synced `.lrc` for the 2:32 single (ISRC `IL7022200212`), 
 
 Spanish translation is now included in matching `.tr.lrc` files at all five lookup paths. Every timestamp and instrumental-clear row mirrors its Hebrew counterpart. Colloquial expressions are translated idiomatically (`דובשנייה` as *bomboncito*), while *Beluga*, *Givatayim*, and *Mimuna* remain named references.
 
-**Timing status:** provisional **line-level** synchronization anchored to the track's 105 BPM structure and audio energy; especially spoken intro, bridge, and rapid outro would benefit from manual playback QC. Not word-synced; no original audio is committed.
+**Timing revision (2026-11-04):** retimed line by line against the supplied
+152.000-second FLAC using overlapping Hebrew word alignments, independent
+Whisper large-v3 / large-v3-turbo recognition, and a Demucs-isolated vocal
+stem. This replaces the provisional beat-based timing: corrections vary by
+section, so a single global offset is insufficient. Corrected the repeated
+outro's line order and replaced its extra final question with the closing
+ad-lib. Removed three premature interior blank rows that cleared continuing
+vocals; the final clear remains at 02:29.72. All five Hebrew lookup copies
+and all five Spanish translations share the same 60 timestamps.
+
+This is **line-level** timing, not word-synced lyrics. Automated alignments
+agree well on the verses, choruses, and outro; the heavily processed bridge
+(01:52–02:08) remains approximate and has not been verified by a human
+listener. No original audio or separated stems are committed.
